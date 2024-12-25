@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:23/12/2024
+## Date:25/12/2024
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -27,13 +27,279 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
-dri.html
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf7f0;
+            color: #333;
+        }
+        header {
+            background-color: #d3d631;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #92e918;
+        }
+        section p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Nature</h1>
+    </header>
+    <section>
+        <h2>Our Connection to Nature</h2>
+        <p>Nature is a vast and beautiful phenomenon that encompasses all living and non-living things on Earth. From the towering mountains and deep oceans to the smallest insects and microorganisms, nature's diversity is endless and awe-inspiring.</p>
+        <p>Understanding and appreciating nature is essential for the survival of all species, including humans. It provides us with essential resources like air, water, and food, as well as inspiration and solace.</p>
+    </section>
+    <section>
+        <h2>Why Protect Nature?</h2>
+        <p>Protecting nature is crucial to maintaining the balance of ecosystems. Every species, no matter how small, plays a role in this balance. Deforestation, pollution, and climate change pose serious threats to the natural world, making conservation efforts more important than ever.</p>
+        <p>By adopting sustainable practices and supporting conservation initiatives, we can ensure that future generations experience the beauty and benefits of nature.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 About Nature. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+home.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Beauty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-image: url('https://example.com/nature-banner.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+        }
+        nav {
+            background-color: #894caf;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        section p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nature's Beauty</h1>
+        <p>Explore the wonders of the natural world</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Nature</h2>
+        <p>Nature is the most beautiful and precious gift of God to humans. It includes everything we see around us, from the majestic mountains to the serene rivers, lush green forests, and vibrant wildlife. Our mission is to inspire people to appreciate and protect the natural world.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some breathtaking snapshots of nature:</p>
+       
+        <img src="50 Magnificent Natural Landscape Photographs _ Envato Tuts+.jpg" alt="Nature Image 1" style="width:100%;max-width:600px;">
+        <img src="nature.jpg" alt="Nature Image 2" style="width:100%;max-width:600px;">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to share your nature experiences? Reach out to us!</p>
+        <p>Email: thiru@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nature's Beauty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #28a789;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #85ad26;
+        }
+        section p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        form button {
+            background-color: #18b8d8;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #2394a6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <section>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feedback, or just want to say hello, feel free to reach out to us using the form below. We'd love to hear from you!</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Contact Us. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+oo.html
 <STYLE>
 body {
-    background: linear-gradient(lightblue, teal);
+    background: linear-gradient(rgb(107, 192, 131), rgb(255, 255, 102));
   }
   .navbar {
-    background-color: #08C2FF;
+    background-color: #efff08;
   }
   .navbar .nav-link {
     color: white;
@@ -41,10 +307,10 @@ body {
     margin: 0 10px;
   }
   .navbar .nav-link:hover {
-    color: #16a085;
+    color: #1644a0;
   }
   .sorting-navbar {
-    background-color: #006BFF;
+    background-color: #9d00ff;
     color: white;
     padding: 10px 0;
   }
@@ -57,7 +323,7 @@ body {
     padding: 5px 15px;
   }
   .sorting-navbar .nav-link:hover {
-    background-color: #2c3e50;
+    background-color: #2f8e68;
     border-color: white;
   }
   .card {
@@ -78,13 +344,13 @@ body {
     border-top-right-radius: 15px;
   }
   .card-body {
-    background-color: #006BFF;
+    background-color: #00e5ff;
     color: white;
     text-align: center;
   }
   footer {
     margin-top: 50px;
-    background-color: #08C2FF;
+    background-color: #08fffb;
     color: white;
   }
   
@@ -100,7 +366,7 @@ body {
   
   /* Services Section */
   .services-section {
-    background-color: #1abc9c;
+    background-color: #1a70bc;
     color: white;
     padding: 50px 20px;
   }
@@ -169,7 +435,7 @@ body {
     <div class="row g-4">
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="ai-generated-beautiful-nature-mountain-scenery-professionalgraphy-photo.jpg" class="card-img-top" alt="Placeholder">
+          <img src="50 Magnificent Natural Landscape Photographs _ Envato Tuts+.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 1</h6>
           </div>
@@ -177,7 +443,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="beautiful-nature-pictures-syv21loi30wdz7i2.jpg" class="card-img-top" alt="Placeholder">
+          <img src="infran nature.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 2</h6>
           </div>
@@ -185,7 +451,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="beautiful-nature-scenery-wallpaper-view_1123191-729.avif" class="card-img-top" alt="Placeholder">
+          <img src="nat.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 3</h6>
           </div>
@@ -193,7 +459,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="erawan-waterfall-thailand-beautiful-nature-background-42008912.webp" class="card-img-top" alt="Placeholder">
+          <img src="nature.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 4</h6>
           </div>
@@ -201,7 +467,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="europe-croatia-plitvice-lakes-main-waterfalls-spring-small.jpg" class="card-img-top" alt="Placeholder">
+          <img src="naturekii.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 5</h6>
           </div>
@@ -209,7 +475,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="landscape-sky-full-moon-seascape-to-night-serenity-nature-beautiful-view-sea-many-stars-attractive-dark-cloud-141554532.webp" class="card-img-top" alt="Placeholder">
+          <img src="naturemm.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 6</h6>
           </div>
@@ -217,7 +483,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="pexels-pixabay-206359.jpg" class="card-img-top" alt="Placeholder">
+          <img src="nyey.jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 7</h6>
           </div>
@@ -225,7 +491,7 @@ body {
       </div>
       <div class="col-6 col-md-3">
         <div class="card">
-          <img src="scenic-view-waterfall-rocks-autumn_1048944-14210465.avif" class="card-img-top" alt="Placeholder">
+          <img src="Perfect Reflections [Explored].jpg" class="card-img-top" alt="Placeholder">
           <div class="card-body">
             <h6 class="card-title">Card 8</h6>
           </div>
@@ -260,107 +526,8 @@ body {
   </footer>
 </body>
 </html>
-home.html
+service.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature's Beauty</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-image: url('https://example.com/nature-banner.jpg'); 
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.5em;
-            margin: 10px 0 0;
-        }
-        nav {
-            background-color: #4CAF50;
-            color: white;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        section p {
-            line-height: 1.6;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to Nature's Beauty</h1>
-        <p>Explore the wonders of the natural world</p>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About Nature</h2>
-        <p>Nature is the most beautiful and precious gift of God to humans. It includes everything we see around us, from the majestic mountains to the serene rivers, lush green forests, and vibrant wildlife. Our mission is to inspire people to appreciate and protect the natural world.</p>
-    </section>
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <p>Here are some breathtaking snapshots of nature:</p>
-       
-        <img src="ai-generated-beautiful-nature-mountain-scenery-professionalgraphy-photo.jpg" alt="Nature Image 1" style="width:100%;max-width:600px;">
-        <img src="beautiful-nature-pictures-syv21loi30wdz7i2.jpg" alt="Nature Image 2" style="width:100%;max-width:600px;">
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to share your nature experiences? Reach out to us!</p>
-        <p>Email: thiru@gmail.com</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Nature's Beauty. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-
-service .html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -376,7 +543,7 @@ service .html
             color: #333;
         }
         header {
-            background-color: #007BFF;
+            background-color: #26ff00;
             color: white;
             padding: 20px;
             text-align: center;
@@ -396,7 +563,7 @@ service .html
         section h2 {
             font-size: 2em;
             margin-bottom: 10px;
-            color: #007BFF;
+            color: #0048ff;
         }
         section p {
             line-height: 1.6;
@@ -437,185 +604,16 @@ service .html
     </footer>
 </body>
 </html>
-about.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Nature</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #eaf7f0;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background: #ffffff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #4CAF50;
-        }
-        section p {
-            line-height: 1.6;
-            margin: 10px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>About Nature</h1>
-    </header>
-    <section>
-        <h2>Our Connection to Nature</h2>
-        <p>Nature is a vast and beautiful phenomenon that encompasses all living and non-living things on Earth. From the towering mountains and deep oceans to the smallest insects and microorganisms, nature's diversity is endless and awe-inspiring.</p>
-        <p>Understanding and appreciating nature is essential for the survival of all species, including humans. It provides us with essential resources like air, water, and food, as well as inspiration and solace.</p>
-    </section>
-    <section>
-        <h2>Why Protect Nature?</h2>
-        <p>Protecting nature is crucial to maintaining the balance of ecosystems. Every species, no matter how small, plays a role in this balance. Deforestation, pollution, and climate change pose serious threats to the natural world, making conservation efforts more important than ever.</p>
-        <p>By adopting sustainable practices and supporting conservation initiatives, we can ensure that future generations experience the beauty and benefits of nature.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 About Nature. All rights reserved.</p>
-    </footer>
-</body>
-</html>
-contact.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        header {
-            background-color: #28a745;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background: #ffffff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #28a745;
-        }
-        section p {
-            line-height: 1.6;
-            margin: 10px 0;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-        form label {
-            margin: 10px 0 5px;
-            font-weight: bold;
-        }
-        form input, form textarea, form button {
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 1em;
-        }
-        form button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        form button:hover {
-            background-color: #218838;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Contact Us</h1>
-    </header>
-    <section>
-        <h2>Get in Touch</h2>
-        <p>If you have any questions, feedback, or just want to say hello, feel free to reach out to us using the form below. We'd love to hear from you!</p>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 Contact Us. All rights reserved.</p>
-    </footer>
-</body>
-</html>
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-23 110211.png>)
-![alt text](<Screenshot 2024-12-23 110225.png>)
-![alt text](<Screenshot 2024-12-23 110241.png>)
-![alt text](<Screenshot 2024-12-23 110251.png>)
-![alt text](<Screenshot 2024-12-23 110304.png>)
-![alt text](<Screenshot 2024-12-23 110317.png>)
-![alt text](<Screenshot 2024-12-23 110330.png>)
+![alt text](<Screenshot 2024-12-25 201241.png>)
+![alt text](<Screenshot 2024-12-25 201303.png>)
+![alt text](<Screenshot 2024-12-25 201323.png>)
+![alt text](<Screenshot 2024-12-25 201341.png>)
+![alt text](<Screenshot 2024-12-25 201435.png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
